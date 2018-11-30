@@ -49,12 +49,12 @@ usually bloated and needs a lot of processing which eventually leads to page loa
 Examples of existing content websites:</b>
 
 <ul>
-<li>The Walt Disney Company is one of the websites that are designed using Wordpress.
+<li>The Walt Disney Company is one of the websites that is designed using WordPress.
 Since it uses a very basic template for its design to provide entertainment
-and information for the users, it does not have the face the drawbacks that WordPress has.</li>
+and information for the users, it does not have to face the drawbacks that WordPress has.</li>
 <li>Kate Perry website also uses WordPress as its CMS. The website has a simple white background
 and easily navigable links, giving its users the option to listen, watch and learn easily and at
-their convenience without a lot of animation that a lot of websites usually have.</li>
+their convenience without a lot of animation that most of the websites usually have these days.</li>
 </ul>
         </p>
       </div>

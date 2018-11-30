@@ -27,7 +27,7 @@ Do address the following in your response:
         <br/><br/>
         <strong>Internship?</strong> Worked as a Web Developer Intern with ‘Swisk’ in New York to develop web and mobile vehicle seeking application similar to Uber. My task was to implement customer and driver side RESTful APIs in Java.
         <br/><br/>
-        <strong>Fun Projects?</strong> I believe that building projects is the best way to learn, not just the language but also learning to fix errors. So, I usually like to explore new technologies by build my own web applications. Some of the cool stuff can be found
+        <strong>Fun Projects?</strong> I believe that building projects is the best way to learn, not just the language but also learning to fix errors. So, I usually like to explore new technologies by building my own web applications. Some of the cool stuff can be found
         <b><a href="https://github.com/pallavi16?tab=repositories"> here: </a></b>
 
         <br/><br/>
@@ -35,7 +35,7 @@ Do address the following in your response:
         <br/><br/>
         <strong>Considerations for evaluating an opportunity or expectations from the new job?</strong>
         <ul >
-        <li>A place where my work is not limited to web development. If need be, I could help and switch to full stack and learning something new in the process.</li>
+        <li>A place where my work is not limited to web development. If need be, I could help and switch to full stack and learn something new in the process.</li>
         <li>A place where there is an opportunity to work in an agile environment with a possibility to collaborate with the rest of the team.</li>
         <li>A team whose goal is to conceptualize ideas to build next generation of pixel-perfect web interfaces/designs and create amazing user experiences.</li>
         <li>A work culture where each step/stage (Plan, Design, Build, Test, Launch) is given its own importance.</li>
