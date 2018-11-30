@@ -1,14 +1,135 @@
+
 body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  background-color: #FFCC00;
+  padding: 10px;
+  margin: 10px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  border-style: solid;
+  border-width: thick;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+
+*{
+  font-family: Avenir;
+}
+
+h1, h2, p, ul, li {
+  font-family: sans-serif;
+  font-family: Avenir;
+
+}
+
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: #111;
+  padding: 0;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+ul.header li  {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  top: 0;
+  transition: all 0.25s;
+}
+
+ul.header li:hover{
+  top: -0.25rem;
+  transition: top 0.25s;
+
+}
+
+ul.header li a:hover{
+  color: #FFCC00;
+
+}
+
+.content {
+  background-color: #FFF;
+  padding: 20px;
+
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+
+}
+.content li {
+  margin-bottom: 10px;
+
+}
+h2{
+  font-size: 1rem;
+  background: lightgray;
+  border: 2px solid white;
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+
+h2.fadeInText {
+font-size: 1.5rem;
+padding-left: 10px;
+  text-shadow: 0 0 5px white,0 0 5px white,
+                0 0 5px black,0 0 5px white,
+                0 0 5px white,0 0 5px white,
+                0 0 5px white,0 0 5px white;
+  animation-name: fadeInOut;
+  animation-delay: 0.1s;
+  animation-duration: 3s;
+}
+
+h2 ul{
+  font-size: 1rem;
+  line-height: 30px;
+}
+
+h2 ul li{
+
+  line-height: 0.8;
+}
+
+p.blurText{
+
+transform-origin: 50% 100%;
+
+    animation-duration: 2s;
+    animation-name: fadeAndScale;
+    animation-timing-function: cubic-bezier(.71,.55,.62,1.57);
+
+}
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  45% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeAndScale {
+    from {
+        opacity: 0;
+        transform: scale(.9, .9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1, 1);
+    }
 }
