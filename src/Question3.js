@@ -5,57 +5,33 @@ class Question3 extends Component {
     return (
       <div>
         <h2 className ="fadeInText">QUESTION 3: <br/>
-        Pick a CMS of your choice, and describe what kicking-off a new website project today
-        would look like for you, in terms of:
-        <ul>
-        <li>What tools and stack make up your development environment?</li>
-        <li>What are the components of your boilerplate or initial codebase?</li>
-        Further, could you explain when would this particular CMS not be your first choice for a
-        website. Share a couple examples or existing content websites.
-        We’re not looking for any code or pseudo-code at this stage.
-        </ul>
+          Please spend 10-15 mins checking out Tuva at <b><a href="https://tuvalabs.com/k12/">
+          tuvalabs.com/k12/. </a></b>
+          What are your initial impressions of the product?
+          Feel free to signup and explore the application to provide the feedback.
+
         </h2>
-        <p className ="blurText"><strong>Picking a CMS: </strong>WordPress is usually my
-        choice when it comes it picking a CMS since it has a flexible platform and easier
-        navigation than most of the other CMS.
-	<br/>
-	<strong>Tools and web stack for website development: </strong>
-<br/>
-<b>Editor:</b> Sublime Text/ Atom
-<br/>
-<b>Browser:</b>  Mostly Chrome (for Dev tools) but I also ensure cross browser compatibility while testing.
-<br/><b>Languages:</b> HTML5, CSS3
-<br/><b>Design:</b> Mostly Illustrator or Photoshop
-<br/><b>UI Packages:</b> Bootstrap
-<br/><b>Version Control:</b> Github
-<br/><b>JS Frameworks: </b>Angular/ React
-<br/><b>Databases: </b>Usually MySQL/MongoDB
-<br/><b>CSS Precompiler:</b> SASS
-<br/><b>Deploy tools: </b>Licensed tools for professional work;  For prototypes, Heroku.
+        <p className ="blurText">I found the interactive data tool for students and teachers really impressive. It has a user-friendly and a very intuitive interface that could empower the teachers to create activities for students through easy and fun datasets. With the use of sample datasets such as dinosaurs, roller coasters, the user can easily explore and understand how to use the tool. The knowledge of tool usage using this sample dataset could later allow the user to easily import their own dataset.
+The content library provides a selection of unique and wide range of subjects/topics
+for teachers to create student activities.
+Not only the teachers, the students  could use self-guided lesson to learn and
+practice specific tools and skills relevant to their course of study.
+The presence of case cards with a tons of attributes and values provides the user
+with a variety of data properties for their case study. The toolbar, on the other hand,
+is an incredibly useful tool to easily navigate and use the graphs. With this readily
+available toolbar, student's not only have the access to the datasets but also have
+several options to graph the data and produce better data visualizations.
+These Graphing tools provide a number of options in each activity to create bar graphs,
+ histograms, line graphs, scatter plots etc.
+I believe that this is a great tool to keep students  engaged and interested in reading
+and learning something new by doing a lot of activities rather than using the simple,
+boring traditional textbooks.
+Apart from such powerful learning methodology that this tool provides, I think the
+ design is also very appealing (especially for students).Overall, I believe that
+ this strategy could help students apply their data literacy skills in a variety
+  of contexts and get a deeper understanding of the various skills they could learn
+   through TuvaLabs.
 
-<br/><br/>
-<b>	Why not WordPress? </b>
-<ul>
-<li>Website management with WordPress is really cumbersome and expensive as it needs constant fixes
-and updation.</li>
-<li>Code breaks and hacking is too frequent if the website is not managed properly and updated regularly.</li>
-<li>Also, it won’t be a great choice in a website where speed and page load time is an important
-requirement.
-Since WordPress caters for different styles and features, some of which are left unused, the code is
-usually bloated and needs a lot of processing which eventually leads to page loading slower.</li>
-</ul>
-<br/><br/>
-<b>
-Examples of existing content websites:</b>
-
-<ul>
-<li>The Walt Disney Company is one of the websites that is designed using WordPress.
-Since it uses a very basic template for its design to provide entertainment
-and information for the users, it does not have to face the drawbacks that WordPress has.</li>
-<li>Kate Perry website also uses WordPress as its CMS. The website has a simple white background
-and easily navigable links, giving its users the option to listen, watch and learn easily and at
-their convenience without a lot of animation that most of the websites usually have these days.</li>
-</ul>
         </p>
       </div>
     );

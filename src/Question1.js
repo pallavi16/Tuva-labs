@@ -30,7 +30,7 @@ class Question1 extends Component {
     stages for 10 months. I learnt the concept of service workers, building a fully responsive
     mobile-ready offline-first web application, implemented various accessibility features to
      improve performance and speed (page load time). The link to the project can be found
-     <b><a href="https://github.com/pallavi16/Restaurant-Review-Stage3">here.</a></b>
+     <b><a href="https://github.com/pallavi16/Restaurant-Review-Stage3"> here.</a></b>
      The project was really interesting and was a great resource to hone my
      technical web development skills. I believe I have become much better,
       self-driven and a more passionate front-end engineer in the past 12 months.

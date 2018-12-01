@@ -1,6 +1,6 @@
 
 body {
-  background-color: #FFCC00;
+  background-color: #000;
   padding: 10px;
   margin: 10px;
   -webkit-font-smoothing: antialiased;
@@ -14,9 +14,11 @@ body {
   font-family: Avenir;
 }
 
+
 h1, h2, p, ul, li {
   font-family: sans-serif;
   font-family: Avenir;
+ text-align: justify;
 
 }
 
@@ -26,11 +28,11 @@ ul.header li {
   margin: 0;
 }
 ul.header {
-  background-color: #111;
+  background-color: #FFCC00;
   padding: 0;
 }
 ul.header li a {
-  color: #FFF;
+  color: #000;
   font-weight: bold;
   text-decoration: none;
   padding: 20px;
@@ -52,14 +54,14 @@ ul.header li:hover{
 }
 
 ul.header li a:hover{
-  color: #FFCC00;
+  color: #817b66;
 
 }
 
 .content {
   background-color: #FFF;
   padding: 20px;
-
+  justify-content: center;
 }
 .content h2 {
   padding: 0;
@@ -132,4 +134,12 @@ transform-origin: 50% 100%;
         opacity: 1;
         transform: scale(1, 1);
     }
+}
+
+body h1{
+  color: #FFCC00;
+}
+
+p{
+  padding: 20px;
 }
