@@ -15,7 +15,7 @@ class Main extends Component {
     return (
       <HashRouter>
         <div>
-          <h1>Round 2: Written Questions</h1>
+          <h1>Written Questions</h1>
           <ul className="header">
             <li><NavLink to="/q1">Question 1</NavLink></li>
             <li><NavLink to="/q2">Question 2</NavLink></li>
